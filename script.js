@@ -8,6 +8,52 @@ const PORTFOLIO_CONFIG = Object.freeze({
 });
 
 const CASES = Object.freeze({
+  nexora: {
+  "title": "Nexora",
+  "overline": "CRM · PROSPECÇÃO & IA",
+  "description": "Plataforma multiempresa de prospecção, atendimento e relacionamento pelo WhatsApp.",
+  "challenge": "Organizar leads, conversas e acompanhamento comercial em um ambiente separado por empresa.",
+  "solution": "Cadastro de contatos com tags e observações, múltiplas conexões WPPConnect, histórico de conversas e mensagens agendadas. Assistente opcional com Ollama para qualificar e pontuar leads, interromper abordagens após recusa e transferir o atendimento para a equipe.",
+  "tags": [
+    "Node.js",
+    "MySQL",
+    "WPPConnect",
+    "Ollama",
+    "Multiempresa"
+  ],
+  "result": "Implementação local documentada com painel, perfis de acesso e assistente opcional de IA. Sem indicadores de conversão ou operação em produção aferidos."
+},
+  rotapresente: {
+  "title": "Rota Presente",
+  "overline": "SAAS · TRANSPORTE ESCOLAR",
+  "description": "Sistema multiempresa para gestão do transporte escolar e controle de frequência dos alunos.",
+  "challenge": "Substituir controles dispersos de rotas e chamadas por registros organizados de ida e volta.",
+  "solution": "Cadastros de escolas, veículos, motoristas, monitores, rotas e alunos. Chamada diária com estados de presença por trajeto, acesso dos monitores restrito às rotas atribuídas, relatórios por período e exportação CSV, interface responsiva e trilha de auditoria.",
+  "tags": [
+    "PHP 8.2",
+    "MySQL",
+    "Multiempresa",
+    "Permissões",
+    "Relatórios CSV"
+  ],
+  "result": "MVP local documentado com gestão de rotas e frequência, permissões por ferramenta e interface para celular. Dados demonstrativos; uso em produção não confirmado."
+},
+  quizwhatsapp: {
+  "title": "Bot de Questões no WhatsApp",
+  "overline": "EDTECH · AUTOMAÇÃO WHATSAPP",
+  "description": "Plataforma multiempresa para distribuir questões de estudo pelo WhatsApp e acompanhar respostas.",
+  "challenge": "Organizar bancos de questões e oferecer uma rotina de prática pelo WhatsApp com acompanhamento de desempenho.",
+  "solution": "Backend Node.js com Express, MySQL e WPPConnect, sessões autenticadas por QR Code e painel por empresa. Banco de matérias e questões, quizzes por enquetes, apuração de acertos e erros e agendamento por destinatário, horário, dias e ordem das questões.",
+  "tags": [
+    "Node.js",
+    "Express",
+    "MySQL",
+    "WPPConnect",
+    "Enquetes",
+    "Agendamento"
+  ],
+  "result": "Implementação local com painel administrativo, isolamento por empresa, sessões persistentes e fluxo de quizzes documentado. Entregabilidade e desempenho em escala não aferidos."
+},
   torcidaos: {
     title: 'TorcidaOS',
     overline: 'PLATAFORMA SAAS · GESTÃO DE ORGANIZAÇÕES',
