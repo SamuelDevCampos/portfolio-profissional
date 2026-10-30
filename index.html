@@ -1,0 +1,240 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#080b10" />
+    <meta name="color-scheme" content="dark" />
+    <meta name="description" content="Samuel de Sousa Campos — desenvolvimento full-stack, arquitetura de software, plataformas SaaS e automação. Conheça projetos, competências e trajetória." />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="pt_BR" />
+    <meta property="og:title" content="Samuel de Sousa Campos — Engenharia de Software & Produtos SaaS" />
+    <meta property="og:description" content="Produtos bem pensados. Sistemas bem construídos. Portfólio de engenharia de software, arquitetura e SaaS." />
+    <title>Samuel de Sousa Campos — Engenharia de Software & Produtos SaaS</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      if (window.tailwind) window.tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              canvas: '#080b10',
+              panel: '#0e1219',
+              subtle: '#a0a9b9',
+              mint: '#85f5c6',
+            },
+            fontFamily: { sans: ['Inter', 'sans-serif'], mono: ['DM Mono', 'monospace'] },
+          }
+        }
+      };
+    </script>
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="script.js"></script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Samuel de Sousa Campos",
+        "jobTitle": "Desenvolvedor Full-Stack PHP Pleno e Analista de Sistemas",
+        "description": "Graduado em Análise e Desenvolvimento de Sistemas pela Estácio; ex-terceiro-sargento da FAB com atuação no Sistema ATENA e desenvolvedor de produtos SaaS.",
+        "alumniOf": {"@type": "CollegeOrUniversity", "name": "Universidade Estácio"}, "knowsAbout": ["PHP", "MySQL", "JavaScript", "React", "Desenvolvimento web", "Plataformas SaaS", "APIs", "Integrações", "Arquitetura de software"]
+      }
+    </script>
+  </head>
+  <body class="bg-canvas text-white antialiased">
+    <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+    <div class="site-progress" id="site-progress" aria-hidden="true"></div>
+    <div class="page-glow page-glow-top" aria-hidden="true"></div>
+
+    <header class="site-header" id="topo">
+      <div class="shell header-inner">
+        <a class="brand" href="#inicio" aria-label="Samuel de Sousa Campos, voltar ao início">
+          <span class="brand-mark" aria-hidden="true"><span>s</span><span class="brand-dot">.</span></span>
+          <span class="brand-name">samuel<span class="brand-muted">.dev</span></span>
+        </a>
+        <nav class="desktop-nav" aria-label="Navegação principal">
+          <a href="#sobre">Sobre</a>
+          <a href="#stack">Expertise</a>
+          <a href="#projetos">Projetos</a>
+          <a href="#entregas">Entregas</a>
+          <a href="#trajetoria">Trajetória</a>
+        </nav>
+        <div class="header-actions">
+          <a class="header-contact" href="#contato">Vamos conversar <span aria-hidden="true">↗</span></a>
+          <button class="menu-toggle" id="menu-toggle" type="button" aria-label="Abrir menu" aria-expanded="false" aria-controls="mobile-menu">
+            <span></span><span></span><span></span>
+          </button>
+        </div>
+      </div>
+      <nav class="mobile-nav" id="mobile-menu" aria-label="Navegação para celular" hidden>
+        <a href="#sobre">Sobre</a><a href="#stack">Expertise</a><a href="#projetos">Projetos</a><a href="#entregas">Entregas</a><a href="#trajetoria">Trajetória</a><a href="#contato">Contato ↗</a>
+      </nav>
+    </header>
+
+    <main id="conteudo">
+      <section class="hero section-grid" id="inicio" aria-labelledby="hero-title">
+        <div class="shell hero-grid">
+          <div class="hero-content">
+            <div class="eyebrow eyebrow-hero"><span class="signal-dot"></span> FULL-STACK PHP PLENO <span class="eyebrow-divider">/</span> SISTEMAS & PRODUTOS SAAS</div>
+            <p class="hero-intro">Olá, eu sou <strong>Samuel de Sousa Campos</strong> <span class="intro-wave" aria-hidden="true">✳</span></p>
+            <h1 id="hero-title">Ideias complexas.<br /><span class="hero-title-quiet">Sistemas simples.</span><br /><span class="gradient-ink">Impacto real.</span></h1>
+            <p class="hero-description">Sou desenvolvedor Full-Stack PHP Pleno, formado em Análise e Desenvolvimento de Sistemas pela Estácio e ex-3º Sargento da Força Aérea Brasileira. Atuei na evolução do Sistema ATENA e também crio produtos SaaS, integrações e experiências web.</p>
+            <div class="hero-buttons">
+              <a href="#projetos" class="btn btn-primary">Explorar projetos <span aria-hidden="true">↗</span></a>
+              <a href="#contato" class="btn btn-secondary">Entrar em contato <span aria-hidden="true">→</span></a>
+            </div>
+            <div class="hero-meta"><span class="meta-line"></span><span>DO PROBLEMA AO PRODUTO</span><span class="meta-separator">·</span><span>DESIGN + ENGENHARIA</span></div>
+          </div>
+          <div class="hero-visual" aria-label="Ilustração conceitual de uma arquitetura de software com interface, serviços e dados">
+            <div class="visual-aura" aria-hidden="true"></div>
+            <div class="terminal-card">
+              <div class="terminal-topbar"><div class="window-controls" aria-hidden="true"><i></i><i></i><i></i></div><span>product-architecture.ts</span><span class="terminal-icon">⌘ K</span></div>
+              <div class="terminal-code" aria-hidden="true">
+                <div><span class="code-number">01</span> <span class="syntax-blue">const</span> <span class="syntax-white">buildProduct</span> = <span class="syntax-blue">{</span></div>
+                <div><span class="code-number">02</span> &nbsp; challenge: <span class="syntax-green">'complexity'</span>,</div>
+                <div><span class="code-number">03</span> &nbsp; approach: <span class="syntax-blue">[</span></div>
+                <div><span class="code-number">04</span> &nbsp;&nbsp; <span class="syntax-green">'design'</span>, <span class="syntax-green">'architecture'</span>,</div>
+                <div><span class="code-number">05</span> &nbsp;&nbsp; <span class="syntax-green">'engineering'</span></div>
+                <div><span class="code-number">06</span> &nbsp; <span class="syntax-blue">]</span>,</div>
+                <div><span class="code-number">07</span> &nbsp; result: <span class="syntax-green">'meaningful impact'</span></div>
+                <div><span class="code-number">08</span> <span class="syntax-blue">}</span>;</div>
+              </div>
+              <div class="terminal-foot"><span class="terminal-live"><span></span> SYSTEM THINKING</span><span>UTF-8 <span class="terminal-divider">·</span> TS</span></div>
+            </div>
+            <div class="flow-card">
+              <div class="flow-card-top"><span><span class="flow-spark">✦</span> SYSTEM BLUEPRINT</span><span class="flow-indicator">● LIVE DESIGN</span></div>
+              <div class="diagram-flow">
+                <div class="diagram-node"><span class="diagram-node-icon">▧</span><span>Interface</span><small>UX / UI</small></div>
+                <div class="diagram-link" aria-hidden="true"><span></span></div>
+                <div class="diagram-node diagram-node-active"><span class="diagram-node-icon">⌘</span><span>Services</span><small>API / LOGIC</small></div>
+                <div class="diagram-link" aria-hidden="true"><span></span></div>
+                <div class="diagram-node"><span class="diagram-node-icon">▤</span><span>Data</span><small>STORAGE</small></div>
+              </div>
+            </div>
+            <div class="visual-caption"><span class="caption-cross">+</span> THINK IN SYSTEMS. BUILD FOR PEOPLE. <span>01/07</span></div>
+          </div>
+        </div>
+        <div class="shell hero-stats" id="sobre" aria-label="Resumo de atuação">
+          <div class="stat-item"><strong>07</strong><span>Produtos e plataformas<br />no portfólio</span></div>
+          <div class="stat-divider"></div>
+          <div class="stat-item"><strong>05</strong><span>Entregas complementares<br />Web · Marca · Educação</span></div>
+          <div class="stat-divider"></div>
+          <div class="stat-item stat-idea"><span class="stat-symbol" aria-hidden="true">✦</span><span><strong>3 anos e 6 meses</strong><br />no Sistema ATENA · FAB</span></div>
+        </div>
+      </section>
+
+      <section class="section bio-section" id="perfil" aria-labelledby="bio-title"><div class="shell"><div class="section-heading reveal"><div class="section-label"><span>01</span> / PERFIL PROFISSIONAL</div><div class="section-heading-row"><h2 id="bio-title">Engenharia com experiência<br><span class="muted-heading">em sistemas institucionais.</span></h2><p>Graduado em Análise e Desenvolvimento de Sistemas pela Universidade Estácio. Ex-militar da Força Aérea Brasileira, com atuação em desenvolvimento Full-Stack PHP de nível pleno.</p></div></div><div class="bio-grid"><article class="bio-feature reveal"><span class="bio-mini">EXPERIÊNCIA EM DESTAQUE · FORÇA AÉREA BRASILEIRA</span><h3>Sistema ATENA</h3><p class="bio-lead">Terceiro-Sargento · Analista e Desenvolvedor de Sistemas Full Stack<br>Centro de Comunicação Social da Aeronáutica (CECOMSAER) · 3 anos e 6 meses</p><p>Minha principal atuação profissional foi a manutenção e evolução do Sistema ATENA, plataforma de apoio à Comunicação Social da Aeronáutica. Trabalhei do levantamento de demandas à implementação de novas funcionalidades, com atuação em interfaces, regras de negócio e banco de dados.</p><div class="bio-tags"><span>PHP</span><span>JavaScript</span><span>MySQL</span><span>Manutenção corretiva</span><span>Manutenção evolutiva</span><span>Suporte a usuários</span></div><div class="bio-notice">Atuação descrita em nível profissional, sem expor código-fonte ou informações internas do sistema institucional.</div></article><aside class="bio-side reveal"><div class="bio-small"><span>FORMAÇÃO ACADÊMICA</span><strong>Tecnólogo em Análise e Desenvolvimento de Sistemas</strong><p>Universidade Estácio</p></div><div class="bio-small"><span>PERFIL</span><strong>Desenvolvedor Full-Stack PHP Pleno</strong><p>Ex-3º Sargento da Força Aérea Brasileira</p></div><div class="bio-small"><span>LOCALIZAÇÃO</span><strong>Brasília, Distrito Federal</strong><p>Experiência em produto, desenvolvimento web e suporte institucional</p></div><div class="bio-small"><span>TRABALHO ANTERIOR</span><strong>SLU/DF · 2 anos</strong><p>Automação de rotinas financeiras com Excel/VBA e passagem pela Diretoria de TI</p></div></aside></div></div></section>
+<section class="section expertise-section" id="stack" aria-labelledby="stack-title">
+        <div class="shell">
+          <div class="section-heading reveal">
+            <div class="section-label"><span>01</span> / EXPERTISE</div>
+            <div class="section-heading-row"><h2 id="stack-title">Ferramentas certas.<br /><span class="muted-heading">Soluções bem pensadas.</span></h2><p>Uma visão de engenharia que une experiência de uso, regras de negócio e estruturas capazes de acompanhar a evolução do produto.</p></div>
+          </div>
+          <div class="skills-grid">
+            <article class="skill-card reveal"><div class="skill-top"><span class="skill-symbol" aria-hidden="true">◫</span><span class="skill-index">01 / 04</span></div><h3>Frontend & UX</h3><p>Experiências web fluidas, acessíveis e feitas para usuários reais.</p><div class="chip-list"><span>JavaScript</span><span>React</span><span>HTML5</span><span>CSS3</span><span>Bootstrap</span><span>Tailwind CSS</span><span>Responsividade</span><span>Design de interfaces</span></div></article>
+            <article class="skill-card reveal"><div class="skill-top"><span class="skill-symbol" aria-hidden="true">⌘</span><span class="skill-index">02 / 04</span></div><h3>Backend & Integrações</h3><p>Fluxos de negócio, serviços e comunicação confiável entre sistemas.</p><div class="chip-list"><span>PHP</span><span>MySQL</span><span>Git</span><span>APIs REST</span><span>Python (projetos)</span><span>FastAPI (projetos)</span><span>Webhooks</span><span>Autenticação</span><span>Regras de negócio</span><span>Integrações</span></div></article>
+            <article class="skill-card reveal"><div class="skill-top"><span class="skill-symbol" aria-hidden="true">☁</span><span class="skill-index">03 / 04</span></div><h3>Cloud & Operações</h3><p>Produtos online pensados para operação, continuidade e manutenção.</p><div class="chip-list"><span>Base44</span><span>Aplicações SaaS</span><span>Deploy web</span><span>Serviços cloud</span><span>Segurança de acesso</span><span>Operação de produto</span></div></article>
+            <article class="skill-card reveal"><div class="skill-top"><span class="skill-symbol" aria-hidden="true">⛶</span><span class="skill-index">04 / 04</span></div><h3>Arquitetura & Produto</h3><p>Decisões técnicas conectadas aos problemas e objetivos do negócio.</p><div class="chip-list"><span>Arquitetura modular</span><span>Modelagem de fluxos</span><span>Produtos SaaS</span><span>Jornadas digitais</span><span>Escalabilidade</span></div></article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section projects-section" id="projetos" aria-labelledby="projects-title">
+        <div class="shell">
+          <div class="section-heading reveal">
+            <div class="section-label"><span>02</span> / PRODUTOS & PLATAFORMAS</div>
+            <div class="section-heading-row"><h2 id="projects-title">Projetos que resolvem<br /><span class="muted-heading">problemas de verdade.</span></h2><p>Sete produtos entre plataformas, protótipos e integrações, apresentados com decisões técnicas e estágios identificados.</p></div>
+          </div>
+          <div class="projects-grid">
+            <article class="project-card reveal">
+              <div class="project-preview preview-torcida" aria-label="Representação conceitual de um painel de gestão do TorcidaOS">
+                <div class="preview-chrome"><span class="preview-dots">● ● ●</span><span>torcidaos / dashboard</span><span>↗</span></div>
+                <div class="mini-dashboard"><div class="mini-sidebar"><span class="mini-brand">T<span>.</span></span><i>▦</i><i>◧</i><i>▤</i><i>⚙</i></div><div class="mini-main"><div class="mini-heading"><div><strong>Visão geral</strong><small>Gestão em um só lugar</small></div><span class="mini-avatar">TO</span></div><div class="mini-tiles"><div><small>MEMBROS</small><b>▥ ▥ ▥</b><em>Cadastros</em></div><div><small>ASSOCIADOS</small><b>◉ ◉ ◉</b><em>Planos</em></div><div><small>OPERAÇÃO</small><b>≋ ≋ ≋</b><em>Fluxos</em></div></div><div class="mini-chart"><span class="mini-chart-title">Atividade da plataforma</span><div class="bars"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div></div></div></div>
+                <span class="preview-note">VISUAL CONCEITUAL</span>
+              </div>
+              <div class="project-body"><div class="project-kicker"><span class="project-type">PLATAFORMA SAAS</span><span class="project-no">01 / 07</span></div><div class="project-title-row"><h3>TorcidaOS</h3><span class="project-status"><i></i> Em evolução</span></div><p class="project-summary">Uma plataforma para unificar a gestão de torcidas e seus processos do dia a dia.</p><div class="case-summary"><p><strong>Desafio</strong> Informações, associados e operações dispersos.</p><p><strong>Solução</strong> Gestão de membros, carteirinhas QR Code, finanças e loja com PDV.</p><p><strong>Impacto</strong> Centralização dos fluxos em um produto digital.</p></div><div class="project-tech"><span>Gestão SaaS</span><span>QR Code</span><span>PDV</span><span>Jornadas digitais</span></div><div class="project-actions"><button class="text-action case-open" type="button" data-case="torcidaos">Estudo de caso <span aria-hidden="true">↗</span></button><a class="site-link" href="https://torcidaos.com.br" target="_blank" rel="noopener noreferrer" aria-label="Visitar site TorcidaOS (abre em nova aba)">Site <span aria-hidden="true">↗</span></a></div></div>
+            </article>
+            <article class="project-card reveal">
+              <div class="project-preview preview-caravana" aria-label="Representação conceitual de organização de veículos e check-in do CaravanaOS"><div class="preview-chrome"><span class="preview-dots">● ● ●</span><span>caravanaos / embarque</span><span>↗</span></div><div class="bus-visual"><div class="bus-heading"><span>CARAVANA / OPERAÇÕES</span><span class="bus-symbol">↗</span></div><div class="bus-main"><div class="bus-big">BUS <span>01</span></div><div class="bus-small">CONTROLE DE EMBARQUE</div></div><div class="bus-bottom"><span>◉ &nbsp;CHECK-IN QR</span><span>BUS 02 &nbsp; / &nbsp; VAN 01</span></div></div><span class="preview-note">VISUAL CONCEITUAL</span></div>
+              <div class="project-body"><div class="project-kicker"><span class="project-type">OPERAÇÕES & LOGÍSTICA</span><span class="project-no">02 / 07</span></div><div class="project-title-row"><h3>CaravanaOS</h3><span class="project-status status-progress"><i></i> Em construção</span></div><p class="project-summary">Software para organizadores gerenciarem caravanas, veículos e embarques.</p><div class="case-summary"><p><strong>Desafio</strong> Coordenação manual de participantes e veículos.</p><p><strong>Solução</strong> Identificação BUS/VAN, vitrine e validação de credenciais QR.</p><p><strong>Objetivo</strong> Tornar embarques mais organizados e verificáveis.</p></div><div class="project-tech"><span>Fluxos de embarque</span><span>QR Code</span><span>Gestão de veículos</span></div><div class="project-actions"><button class="text-action case-open" type="button" data-case="caravanaos">Estudo de caso <span aria-hidden="true">↗</span></button></div></div>
+            </article>
+            <article class="project-card reveal">
+              <div class="project-preview preview-raiox" aria-label="Representação conceitual de um diagnóstico de perfil empresarial do Raio-X Local"><div class="preview-chrome"><span class="preview-dots">● ● ●</span><span>raio-x local / diagnostic</span><span>↗</span></div><div class="audit-visual"><div class="audit-left"><span>PROFILE INSIGHTS</span><div class="audit-ring"><span>↗</span></div><small>Diagnóstico orientado a dados</small></div><div class="audit-right"><div><span>Informações públicas</span><i class="audit-positive">✓</i></div><div><span>Checklist do perfil</span><i class="audit-positive">✓</i></div><div><span>Comparação local</span><i class="audit-pending">↗</i></div><div><span>Ações recomendadas</span><i class="audit-positive">✓</i></div></div></div><span class="preview-note">VISUAL CONCEITUAL</span></div>
+              <div class="project-body"><div class="project-kicker"><span class="project-type">DADOS & DIAGNÓSTICO</span><span class="project-no">03 / 07</span></div><div class="project-title-row"><h3>Raio-X Local</h3><span class="project-status status-progress"><i></i> Protótipo</span></div><p class="project-summary">Auditoria estruturada de informações públicas de perfis empresariais no Google.</p><div class="case-summary"><p><strong>Desafio</strong> Dificuldade de identificar lacunas em perfis locais.</p><p><strong>Solução</strong> Checklists, comparações e recomendações rastreáveis.</p><p><strong>Impacto</strong> Fluxos de diagnóstico testados em protótipo.</p></div><div class="project-tech"><span>Google Maps</span><span>APIs</span><span>Regras de análise</span></div><div class="project-actions"><button class="text-action case-open" type="button" data-case="raiox">Estudo de caso <span aria-hidden="true">↗</span></button></div></div>
+            </article>
+            <article class="project-card reveal">
+              <div class="project-preview preview-botos" aria-label="Representação conceitual de conversa de agendamento do BotOS"><div class="preview-chrome"><span class="preview-dots">● ● ●</span><span>botos / automation</span><span>↗</span></div><div class="chat-window"><div class="chat-head"><span class="chat-avatar">B</span><span><strong>Assistente de agendamentos</strong><small>Fluxo automatizado</small></span><span class="chat-head-dots">•••</span></div><div class="bubble bubble-in">Olá! Como posso ajudar?</div><div class="bubble bubble-out">Quero agendar um horário.</div><div class="bubble bubble-in bubble-last">Perfeito! Vamos encontrar uma disponibilidade. <span>✓✓</span></div><div class="chat-input">Mensagem <span>↗</span></div></div><span class="preview-note">VISUAL CONCEITUAL</span></div>
+              <div class="project-body"><div class="project-kicker"><span class="project-type">AUTOMAÇÃO & MENSAGERIA</span><span class="project-no">04 / 07</span></div><div class="project-title-row"><h3>BotOS</h3><span class="project-status status-progress"><i></i> Em testes</span></div><p class="project-summary">Agendamentos e atendimento automatizado por WhatsApp para negócios de serviços.</p><div class="case-summary"><p><strong>Desafio</strong> Respostas repetitivas e gestão manual de horários.</p><p><strong>Solução</strong> Conversas guiadas, agenda, lembretes e pagamentos.</p><p><strong>Objetivo</strong> Reduzir atrito na jornada de marcação de horários.</p></div><div class="project-tech"><span>WhatsApp Cloud API</span><span>Webhooks</span><span>Automação</span></div><div class="project-actions"><button class="text-action case-open" type="button" data-case="botos">Estudo de caso <span aria-hidden="true">↗</span></button></div></div>
+            </article>
+
+            <article class="project-card reveal">
+              <div class="project-preview preview-buziness" aria-label="Mockup conceitual de uma plataforma de gestão de perfis empresariais">
+                <div class="preview-chrome"><span class="preview-dots">● ● ●</span><span>buzinessos / workspace</span><span>↗</span></div>
+                <div class="bz-console"><div class="bz-console-header"><div class="bz-mark">B<span>Z</span></div><div><strong>Workspace de agências</strong><small>Perfis e operações</small></div><span class="bz-console-icon">⌘</span></div><div class="bz-console-layout"><div class="bz-navigation"><i class="is-current">▦</i><i>◧</i><i>▤</i><i>⚙</i></div><div class="bz-content"><span class="bz-caption">VISÃO CONSOLIDADA</span><div class="bz-metrics"><span>Clientes</span><span>Perfis</span><span>Relatórios</span></div><div class="bz-panels"><div><i></i><i></i><i></i></div><div><b>Integração GBP</b><small>Autorização em análise</small><span class="bz-pill">API PENDENTE</span></div></div></div></div></div>
+                <span class="preview-note">VISUAL CONCEITUAL</span>
+              </div>
+              <div class="project-body"><div class="project-kicker"><span class="project-type">SAAS · GESTÃO LOCAL</span><span class="project-no">05 / 07</span></div><div class="project-title-row"><h3>buZinessOS</h3><span class="project-status status-progress"><i></i> Em integração</span></div><p class="project-summary">Plataforma para organizar o atendimento e a gestão de múltiplos perfis Google Business Profile.</p><div class="case-summary"><p><strong>Desafio</strong> Agências operam muitos perfis e clientes em paralelo.</p><p><strong>Solução</strong> Workspace de gestão, fluxo de acesso e integração autorizada planejada.</p><p><strong>Estágio</strong> Produto com acesso; API oficial do Google ainda depende de aprovação.</p></div><div class="project-tech"><span>Google Business Profile</span><span>SaaS</span><span>OAuth 2.0</span></div><div class="project-actions"><button class="text-action case-open" type="button" data-case="buzinessos">Estudo de caso <span aria-hidden="true">↗</span></button><a class="site-link" href="https://buzinessos.com.br" target="_blank" rel="noopener noreferrer" aria-label="Visitar buZinessOS (abre em nova aba)">Site <span aria-hidden="true">↗</span></a></div></div>
+            </article>
+            <article class="project-card reveal">
+              <div class="project-preview preview-retoma" aria-label="Representação ilustrativa de um fluxo de recuperação de oportunidades do Retoma AI">
+                <div class="preview-chrome"><span class="preview-dots">● ● ●</span><span>retoma ai / oportunidades</span><span>↗</span></div>
+                <div class="retoma-flow"><div class="retoma-head"><div class="retoma-symbol">↗</div><div><strong>Retoma AI</strong><small>Interesse → Oportunidade</small></div><span class="retoma-head-mark">AI</span></div><div class="retoma-steps"><div class="retoma-step"><i></i><div><span>18:44</span><strong>Interesse demonstrado</strong><small>Início de contato pelo WhatsApp</small></div></div><div class="retoma-step is-highlighted"><i></i><div><span>18:45</span><strong>Oportunidade identificada</strong><small>Próxima ação: acompanhar contato</small></div></div></div><div class="retoma-foot"><span>◉ NOVA OPORTUNIDADE</span><span>↗</span></div></div>
+                <span class="preview-note">VISUAL CONCEITUAL</span>
+              </div>
+              <div class="project-body"><div class="project-kicker"><span class="project-type">IA · RECUPERAÇÃO DE LEADS</span><span class="project-no">06 / 07</span></div><div class="project-title-row"><h3>Retoma AI</h3><span class="project-status status-progress"><i></i> Em validação</span></div><p class="project-summary">Proposta para dar visibilidade a contatos interessados que não avançaram no WhatsApp.</p><div class="case-summary"><p><strong>Desafio</strong> Interessados deixam conversas sem concluir a contratação.</p><p><strong>Solução</strong> Jornada de detecção de oportunidades e acompanhamento de contatos.</p><p><strong>Estágio</strong> Campanha e integração de checkout testadas; automações não aferidas.</p></div><div class="project-tech"><span>Jornada de leads</span><span>WhatsApp</span><span>Checkout integrado</span></div><div class="project-actions"><button class="text-action case-open" type="button" data-case="retoma">Estudo de caso <span aria-hidden="true">↗</span></button></div></div>
+            </article>
+            <article class="project-card reveal">
+              <div class="project-preview preview-aprova" aria-label="Mockup conceitual de painel educacional com plano, questões e simulados do AprovaMentor">
+                <div class="preview-chrome"><span class="preview-dots">● ● ●</span><span>aprovamentor / estudo</span><span>↗</span></div>
+                <div class="ap-console"><div class="ap-head"><div class="ap-identity">✦</div><div><strong>AprovaMentor</strong><small>Estude com direção</small></div><span>✎</span></div><div class="ap-heading"><span>PLANO DE ESTUDOS</span><strong>Seu caminho até a prova</strong></div><div class="ap-data"><div><span>01</span><strong>Minha trilha</strong><i></i></div><div><span>02</span><strong>Banco de questões</strong><i></i></div><div><span>03</span><strong>Simulados</strong><i></i></div></div><div class="ap-bottom"><span>◉ EVOLUÇÃO CONTÍNUA</span><span>↗</span></div></div>
+                <span class="preview-note">VISUAL CONCEITUAL</span>
+              </div>
+              <div class="project-body"><div class="project-kicker"><span class="project-type">EDTECH · MENTORIA</span><span class="project-no">07 / 07</span></div><div class="project-title-row"><h3>AprovaMentor</h3><span class="project-status"><i></i> App disponível</span></div><p class="project-summary">Plataforma para organizar a preparação para concursos com orientação e acompanhamento de estudos.</p><div class="case-summary"><p><strong>Desafio</strong> Rotinas de estudo desconectadas e baixa visibilidade do progresso.</p><p><strong>Solução</strong> Interface com plano, trilhas, questões, simulados e mentoria.</p><p><strong>Estágio</strong> Protótipo de dashboard e acesso de mentores implementados.</p></div><div class="project-tech"><span>EdTech</span><span>Dashboards</span><span>Base44</span><span>Chart.js</span></div><div class="project-actions"><button class="text-action case-open" type="button" data-case="aprovamentor">Estudo de caso <span aria-hidden="true">↗</span></button><a class="site-link" href="https://aprova-mentor.base44.app" target="_blank" rel="noopener noreferrer" aria-label="Visitar AprovaMentor (abre em nova aba)">App <span aria-hidden="true">↗</span></a></div></div>
+            </article>
+          </div>
+          <p class="case-disclaimer reveal"><span aria-hidden="true">ⓘ</span> Visuais ilustrativos. Projetos em diferentes estágios; resultados qualitativos não representam métricas de produção.</p>
+        </div>
+      </section>
+
+
+      <section class="section extras-section" id="entregas" aria-labelledby="extras-title">
+        <div class="shell">
+          <div class="section-heading reveal">
+            <div class="section-label"><span>03</span> / OUTRAS ENTREGAS</div>
+            <div class="section-heading-row"><h2 id="extras-title">Da ideia à interface.<br /><span class="muted-heading">E além do SaaS.</span></h2><p>Landing pages, identidade visual e experiências educacionais desenvolvidas como projetos complementares.</p></div>
+          </div>
+          <div class="extras-grid">
+            <article class="extra-card reveal"><div class="extra-icon extra-icon-blue" aria-hidden="true">↗</div><div class="extra-details"><span class="extra-label">LANDING PAGE · AUTOMOTIVO</span><h3>ARISE Car Experience</h3><p>Experiência premium para apresentar serviços de estética automotiva e incentivar contatos comerciais.</p><div class="extra-chips"><span>HTML</span><span>Tailwind</span><span>UX responsiva</span></div></div><button class="extra-open case-open" type="button" data-case="arise" aria-label="Ver estudo de caso ARISE Car Experience">↗</button></article>
+            <article class="extra-card reveal"><div class="extra-icon extra-icon-violet" aria-hidden="true">✳</div><div class="extra-details"><span class="extra-label">LANDING PAGE · SAÚDE</span><h3>Schild Odontologia Familiar</h3><p>Site institucional responsivo, com apresentação dos tratamentos e foco em conversão.</p><div class="extra-chips"><span>HTML</span><span>Tailwind</span><span>SEO local</span></div></div><button class="extra-open case-open" type="button" data-case="schild" aria-label="Ver estudo de caso Schild Odontologia Familiar">↗</button></article>
+            <article class="extra-card reveal"><div class="extra-icon extra-icon-teal" aria-hidden="true">◈</div><div class="extra-details"><span class="extra-label">LANDING PAGE · SAÚDE</span><h3>Harmony Total Care</h3><p>Presença digital voltada à odontologia, priorizando avaliação, limpeza e clareamento.</p><div class="extra-chips"><span>HTML</span><span>Tailwind</span><span>Schema.org</span></div></div><button class="extra-open case-open" type="button" data-case="harmony" aria-label="Ver estudo de caso Harmony Total Care">↗</button></article>
+            <article class="extra-card reveal"><div class="extra-icon extra-icon-gold" aria-hidden="true">◆</div><div class="extra-details"><span class="extra-label">IDENTIDADE · FOOD SERVICE</span><h3>Papeiros Lanches</h3><p>Conceito visual de marca, cardápio premium e peças animadas para comunicação digital.</p><div class="extra-chips"><span>Branding</span><span>Cardápio</span><span>Motion</span></div></div><button class="extra-open case-open" type="button" data-case="papeiros" aria-label="Ver estudo de caso Papeiros Lanches">↗</button></article>
+            <article class="extra-card reveal"><div class="extra-icon extra-icon-green" aria-hidden="true">▤</div><div class="extra-details"><span class="extra-label">EDUCAÇÃO · CONTEÚDO</span><h3>Curso Google Meu Negócio</h3><p>Materiais didáticos modulares com identidade visual, roteiros, apostilas e experiências em vídeo.</p><div class="extra-chips"><span>Conteúdo técnico</span><span>Design</span><span>Vídeo</span></div></div><button class="extra-open case-open" type="button" data-case="curso" aria-label="Ver estudo de caso Curso Google Meu Negócio">↗</button></article>
+          </div>
+          <p class="case-disclaimer reveal"><span aria-hidden="true">ⓘ</span> Entregas com escopos distintos. Algumas são propostas de interface e materiais, sem indicação de publicação comercial.</p>
+        </div>
+      </section>
+
+      <section class="section timeline-section" id="trajetoria" aria-labelledby="timeline-title">
+        <div class="shell timeline-layout">
+          <div class="timeline-intro reveal"><div class="section-label"><span>04</span> / TRAJETÓRIA</div><h2 id="timeline-title">Construir é um<br /><span class="muted-heading">processo contínuo.</span></h2><p>Minha trajetória reúne atuação técnica na Força Aérea Brasileira, experiências em suporte e automação, formação acadêmica e desenvolvimento de produtos SaaS. As durações abaixo refletem as informações do meu currículo.</p><div class="principle-card"><span>PRINCÍPIO DE TRABALHO</span><p>“A melhor solução técnica é aquela que resolve o problema certo, com clareza e sustentabilidade.”</p><div>↳ <span>PRODUCT-MINDED ENGINEERING</span></div></div></div>
+          <div class="timeline reveal"><div class="timeline-entry"><div class="timeline-marker"><span></span></div><div class="timeline-content"><div class="timeline-period">FORÇA AÉREA BRASILEIRA · 3 ANOS E 6 MESES</div><h3>3º Sargento · Desenvolvedor Full-Stack — Sistema ATENA</h3><p>Centro de Comunicação Social da Aeronáutica. Manutenção e evolução da plataforma ATENA, implementação de funcionalidades, correções, banco de dados e suporte técnico aos usuários.</p><div class="timeline-tags"><span>PHP</span><span>JavaScript</span><span>MySQL</span><span>Sistemas institucionais</span></div></div></div><div class="timeline-entry"><div class="timeline-marker"><span></span></div><div class="timeline-content"><div class="timeline-period">FORÇA AÉREA BRASILEIRA · 4 ANOS</div><h3>S2 Auxiliar · Grupo de Segurança e Defesa de Brasília</h3><p>Atividades operacionais, administrativas e apoio ao Serviço de Desenvolvimento de Sistemas.</p><div class="timeline-tags"><span>Processos</span><span>Tecnologia</span></div></div></div><div class="timeline-entry"><div class="timeline-marker"><span></span></div><div class="timeline-content"><div class="timeline-period">FORÇA AÉREA BRASILEIRA · 6 MESES</div><h3>S1 Auxiliar · Centro de Inteligência da Aeronáutica</h3><p>Apoio administrativo e organização de informações, com observância de procedimentos institucionais.</p><div class="timeline-tags"><span>Organização</span><span>Responsabilidade</span></div></div></div><div class="timeline-entry"><div class="timeline-marker"><span></span></div><div class="timeline-content"><div class="timeline-period">SERVIÇO DE LIMPEZA URBANA DO DF · 2 ANOS</div><h3>Estágio · Automação e Tecnologia da Informação</h3><p>Automatização de rotinas financeiras em Excel e VBA, seguida de atuação na Diretoria de Tecnologia da Informação.</p><div class="timeline-tags"><span>Excel</span><span>VBA</span><span>TI</span></div></div></div><div class="timeline-entry"><div class="timeline-marker"><span></span></div><div class="timeline-content"><div class="timeline-period">EXPERIÊNCIAS ANTERIORES</div><h3>Web Design, vendas e suporte técnico</h3><p>A Casa do Colegial (8 meses) e Speed Net (2 anos): materiais visuais, relacionamento comercial, manutenção de computadores e redes.</p><div class="timeline-tags"><span>Web Design</span><span>Suporte</span></div></div></div><div class="timeline-entry"><div class="timeline-marker"><span></span></div><div class="timeline-content"><div class="timeline-period">FORMAÇÃO</div><h3>Análise e Desenvolvimento de Sistemas</h3><p>Graduação tecnológica pela Universidade Estácio. Cursos adicionais em Inteligência (CBI), Comunicação Social, Polícia da Aeronáutica e manutenção de computadores e redes.</p><div class="timeline-tags"><span>Estácio</span><span>ADS</span></div></div></div>
+            <div class="timeline-entry"><div class="timeline-marker"><span></span></div><div class="timeline-content"><div class="timeline-period">PRODUTOS EM EVOLUÇÃO</div><h3>Plataformas de gestão SaaS</h3><p>Produtos que centralizam fluxos administrativos, acesso de clientes, operações e módulos de negócio.</p><div class="timeline-tags"><span>TorcidaOS</span><span>CaravanaOS</span><span>buZinessOS</span></div></div></div>
+            <div class="timeline-entry"><div class="timeline-marker"><span></span></div><div class="timeline-content"><div class="timeline-period">INTEGRAÇÃO & VALIDAÇÃO</div><h3>Automação e relacionamento</h3><p>Experimentos com webhooks, jornadas no WhatsApp, agendamento e recuperação de oportunidades.</p><div class="timeline-tags"><span>BotOS</span><span>Retoma AI</span></div></div></div>
+            <div class="timeline-entry"><div class="timeline-marker"><span></span></div><div class="timeline-content"><div class="timeline-period">EDUCAÇÃO DIGITAL</div><h3>Estudo guiado & mentoria</h3><p>Concepção de trilhas de estudo, dashboards, desempenho e acesso organizado para mentores.</p><div class="timeline-tags"><span>AprovaMentor</span><span>EdTech</span></div></div></div>
+            <div class="timeline-entry"><div class="timeline-marker"><span></span></div><div class="timeline-content"><div class="timeline-period">PESQUISA APLICADA</div><h3>Dados para tomada de decisão</h3><p>Inspeção de perfis públicos, comparação local e diagnósticos transparentes construídos em protótipo de API.</p><div class="timeline-tags"><span>Raio-X Local</span><span>FastAPI</span></div></div></div>
+            <div class="timeline-entry"><div class="timeline-marker"><span></span></div><div class="timeline-content"><div class="timeline-period">PROJETOS COMPLEMENTARES</div><h3>Web, marcas e conteúdo</h3><p>Interfaces de conversão, identidade de marca e material didático para negócios e educação.</p><div class="timeline-tags"><span>Landing pages</span><span>Design</span><span>Conteúdo</span></div></div></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact-section" id="contato" aria-labelledby="contact-title"><div class="shell"><div class="contact-panel reveal"><div class="contact-grid" aria-hidden="true"></div><div class="contact-content"><div class="section-label"><span>05</span> / LET'S BUILD</div><h2 id="contact-title">Tem um problema<br />que merece uma <span class="gradient-ink">boa solução?</span></h2><p>Se você está construindo um produto digital, evoluindo uma operação ou planejando uma integração, vamos conversar sobre os próximos passos.</p><div class="contact-actions"><a class="btn btn-primary" id="email-link" href="mailto:samukadesousa2014@gmail.com?subject=Contato%20pelo%20portf%C3%B3lio">Enviar um e-mail <span aria-hidden="true">↗</span></a><button class="btn btn-secondary copy-email" id="copy-email" type="button" aria-label="Copiar endereço de e-mail"><span id="copy-label">Copiar e-mail</span><span aria-hidden="true">⧉</span></button></div><div class="contact-email" id="contact-email">samukadesousa2014@gmail.com</div><div class="social-links" id="social-links" aria-label="Redes profissionais"></div></div><div class="contact-art" aria-hidden="true"><span class="contact-art-top">// AVAILABLE FOR IDEAS</span><span class="contact-asterisk">✳</span><span class="contact-art-bottom">DESIGN <span>·</span> BUILD <span>·</span> EVOLVE</span></div></div></div></section>
+    </main>
+
+    <footer class="site-footer"><div class="shell footer-inner"><a class="footer-brand" href="#inicio">s<span>.</span> <span>Samuel de Sousa Campos</span></a><span>Engenharia, produto e atenção aos detalhes.</span><div><span>© <span id="year">2026</span></span><a href="#topo" aria-label="Voltar ao topo">Voltar ao topo ↑</a></div></div></footer>
+
+    <dialog class="case-dialog" id="case-dialog" aria-labelledby="dialog-title"><div class="dialog-shell"><div class="dialog-heading"><div class="section-label"><span>CASE STUDY</span> / PROJETOS</div><button class="dialog-close" id="dialog-close" type="button" aria-label="Fechar estudo de caso">✕</button></div><div class="dialog-body"><p class="dialog-overline" id="dialog-overline"></p><h2 id="dialog-title"></h2><p class="dialog-description" id="dialog-description"></p><div class="dialog-block"><h3>01 / O desafio</h3><p id="dialog-challenge"></p></div><div class="dialog-block"><h3>02 / A solução técnica</h3><p id="dialog-solution"></p></div><div class="dialog-block"><h3>03 / Tecnologias & conceitos</h3><div class="dialog-tags" id="dialog-tags"></div></div><div class="dialog-block"><h3>04 / Resultado & estágio</h3><p id="dialog-result"></p></div><div class="dialog-action" id="dialog-action"></div></div></div></dialog>
+    <div class="toast" id="toast" role="status" aria-live="polite" aria-atomic="true"></div>
+  </body>
+</html>
